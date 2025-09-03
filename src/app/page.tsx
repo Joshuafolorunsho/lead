@@ -1,3 +1,9 @@
+import Placeholder from "@/components/placeholder";
+
 export default function Home() {
-  return <h1>Home Page</h1>;
+  return (
+    <div>
+      <Placeholder />
+    </div>
+  );
 }

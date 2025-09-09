@@ -1,5 +1,4 @@
 import { Hamburger } from "lucide-react";
-import { div } from "motion/react-client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -26,6 +25,7 @@ const TopNav = () => {
         </div>
         <Hamburger className="lg:hidden" />
       </div>
+
       <div className="h-2.5 bg-[#1577BE]"></div>
     </div>
   );

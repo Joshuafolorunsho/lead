@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Shuffle from "../Shuffle";
+import { acme } from "@/app/fonts";
 
 const Footer = () => {
   return (
@@ -27,8 +28,9 @@ const Footer = () => {
         respectReducedMotion={true}
         loop={true}
         tag="h1"
-        className="text-black block"
+        // className={`text-black block ${acme.className}`}
         maxDelay={0}
+        style={{ fontFamily: `${acme.style.fontFamily}` }}
       />
     </footer>
   );

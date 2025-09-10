@@ -18,7 +18,12 @@ const AboutUs = () => {
         <h3 className={`text-[#DFB058] text-lg uppercase ${acme.className}`}>
           A bit about us
         </h3>
-        <div className="space-y-3.5 lg:space-y-[30px]" data-aos="fade-down">
+        <div
+          className="space-y-3.5 lg:space-y-[30px]"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-once="false"
+        >
           <h1
             className={`text-[#10111A] text-4xl lg:text-[52px] ${acme.className}`}
           >
@@ -33,7 +38,11 @@ const AboutUs = () => {
             engaged, and capable of shaping their future.
           </p>
         </div>
-        <div className="space-y-3.5 lg:space-y-[30px]" data-aos="fade-up">
+        <div
+          className="space-y-3.5 lg:space-y-[30px]"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           <h1
             className={`text-[#10111A] text-4xl lg:text-[52px] ${acme.className}`}
           >

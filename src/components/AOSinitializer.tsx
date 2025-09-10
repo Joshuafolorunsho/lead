@@ -7,7 +7,6 @@ const AOSInitializer = () => {
   useEffect(() => {
     AOS.init({
       duration: 600,
-      once: true,
       easing: "ease-out-sine",
       //   disable: "phone",
     });

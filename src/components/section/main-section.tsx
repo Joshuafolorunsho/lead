@@ -20,10 +20,11 @@ const MainSection = () => {
           <p
             className={`text-[#5083C2] text-sm lg:text-lg leading-5 lg:leading-7 ${manrope.className}`}
           >
-            At The Lead Foundation, we champion literacy as a pathway to
-            self-expression and opportunity. From local outreach programs to
-            global initiatives, we work with communities, partners, and
-            volunteers to create lasting impact and empower voices worldwide.
+            At The Learners Education and Development Found or The LEAD
+            Foundation, we champion literacy as a pathway to self-expression and
+            opportunity. From local outreach programs to global initiatives, we
+            work with communities, partners, and volunteers to create lasting
+            impact and empower voices worldwide.
           </p>
 
           <div className="flex items-center gap-8">

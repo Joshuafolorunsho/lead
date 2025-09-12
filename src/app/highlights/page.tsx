@@ -34,59 +34,8 @@ const Highlights = () => {
       body: "Expand your opportunities and cultural awareness by gaining skills in a new language.",
     },
   ];
-  const test = [
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    {
-      name: "feeregre",
-    },
-    // {
-    //   name: "feeregre",
-    // },
-  ];
+
   return (
-    // <div className="max-w-[1300px] m-auto py-40 grid grid-cols-2 gap-5 ">
-    //   <div className="row-span-2">
-    //     <h1>CLick me</h1>
-    //     <p>
-    //       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-    //       minus dicta incidunt eligendi, facilis ipsam provident? Iste odio
-    //       similique natus?
-    //     </p>
-    //   </div>
-    //   {test.map((item, index) => (
-    //     <div
-    //       className={`bg-red-${index + 1}00 border ${
-    //         index % 2 !== 0 || index === 0 ? "row-span-4" : "row-span-4"
-    //       }`}
-    //       key={index}
-    //     >
-    //       {[item.name]} {index}
-    //     </div>
-    //   ))}
-    // </div>
     <div className="max-w-[1300px] m-auto py-12 items-center px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 ">
       <div className="space-y-10">
         <div className="space-y-5" data-aos="zoom-in">

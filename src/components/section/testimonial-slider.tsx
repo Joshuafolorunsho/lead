@@ -5,7 +5,7 @@ import { Marquee } from "@/components/ui/marquee";
 
 const testimonials = [
   {
-    name: "Ofiara Joy",
+    name: "Ofiara Joy Amarachukwu",
     team: "Team Cider (Aug' 23 Edition) ",
     body: "A place where you will be taught the basics of reading and writing, and you'll see the result when you speak and write.",
   },

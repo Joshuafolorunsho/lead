@@ -6,7 +6,7 @@ import { acme } from "@/app/fonts";
 
 const Footer = () => {
   return (
-    <footer className="mt-28">
+    <footer className="">
       <div className="h-2.5 bg-[#1577BE]"></div>
       <div className="max-w-[1300px] m-auto py-14 flex flex-col lg:flex-row items-center justify-between px-10 xl:px-0">
         <Image

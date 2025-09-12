@@ -1,4 +1,4 @@
-import { Abel, Acme, Inter, Manrope, Poppins } from "next/font/google";
+import { Abel, Acme, DM_Sans, Inter, Manrope, Poppins } from "next/font/google";
 
 export const manrope = Manrope({
   subsets: ["latin"],
@@ -26,4 +26,10 @@ export const poppins = Poppins({
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "600", "700"],
+});
+
+export const dmSans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "700"],
 });

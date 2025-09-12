@@ -5,8 +5,8 @@ import React from "react";
 
 const TopNav = () => {
   return (
-    <div>
-      <div className="py-3 flex items-center justify-between max-w-[1300px] px-10 mx-auto">
+    <div className=" sticky top-0 z-50 bg-white">
+      <div className="py-3 flex items-center justify-between max-w-[1300px] px-10 mx-auto ">
         <div>
           <Link href={"/"}>
             <Image

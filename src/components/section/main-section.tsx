@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 import { manrope } from "@/app/fonts";
+import Link from "next/link";
 
 const MainSection = () => {
   return (
@@ -28,9 +29,12 @@ const MainSection = () => {
           </p>
 
           <div className="flex items-center gap-8">
-            <Button className="bg-linear-to-b from-[#9EB0CA] to-[#63758B] cursor-pointer">
+            <Link
+              href={"/highlights"}
+              className={`bg-linear-to-b from-[#9EB0CA] to-[#63758B] cursor-pointer ${buttonVariants()}`}
+            >
               Explore Highlights
-            </Button>
+            </Link>
             <Button
               className="border-[#9EB0CA] bg-transparent text-[#9EB0CA] cursor-pointer hover:text-[#9EB0CA]"
               variant={"outline"}
@@ -40,7 +44,7 @@ const MainSection = () => {
           </div>
         </div>
 
-        <div className="w-fullmax-w-xl content-center ">
+        <div className="w-full max-w-xl content-center ">
           <Image
             alt="main-image"
             src={"/get.svg"}

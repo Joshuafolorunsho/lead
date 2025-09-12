@@ -5,7 +5,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="max-w-[1300px] m-auto py-10 grid grid-cols-1 lg:grid-cols-2 px-10 xl:px-0 gap-10 xl:gap-[92px] items-center">
-      <div className="w-full lg:max-w-[630px]" data-aos="fade-right">
+      <div className="w-full lg:max-w-[630px]" data-aos="fade-up">
         <Image
           src={"/About_Img.svg"}
           alt=""

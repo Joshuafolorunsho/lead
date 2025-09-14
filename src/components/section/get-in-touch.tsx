@@ -4,11 +4,11 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div className="max-w-[1300px] m-auto xl:mt-20 flex flex-col lg:flex-row lg:items-center px-10 xl:px-0 gap-10">
+    <div className="max-w-[1300px] m-auto xl:mt-20 flex flex-col lg:flex-row lg:items-center px-10 xl:px-0 gap-10 my-20">
       <div className="space-y-8">
         <h3 className={`text-2xl ${inter.className}`}>Get Started</h3>
         <h1
-          className={`text-6xl lg:text-[90px] lg:leading-[100px] ${acme.className}`}
+          className={`text-6xl lg:text-[80px] lg:leading-[100px] ${acme.className}`}
           data-aos="flip-left"
         >
           Get in touch with us. We&apos;re here to assist you.

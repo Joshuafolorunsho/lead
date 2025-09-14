@@ -53,7 +53,7 @@ const Highlights = () => {
               key={index}
               className="flex gap-5 "
               data-aos="fade-up"
-              data-aos-delay={`${(index + 1) * 100}`}
+              // data-aos-delay={`${(index + 1) * 100}`}
             >
               <div className="h-6 w-6 rounded-full bg-[#4591CA] flex items-center justify-center shrink-0">
                 <Check color="white" size={16} strokeWidth={2} />

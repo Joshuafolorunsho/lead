@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const MainSection = () => {
   return (
-    <div className="py-12 lg:py-20 bg-[#F7FBFF] flex items-center ">
+    <div className="py-12 lg:py-20 pt-[100px] lg:pt-[120px] bg-[#F7FBFF] flex items-center ">
       <div
         className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-[1300px] px-10 mx-auto"
         data-aos="zoom-in"
@@ -35,12 +35,12 @@ const MainSection = () => {
             >
               Explore Highlights
             </Link>
-            <Button
+            {/* <Button
               className="border-[#9EB0CA] bg-transparent text-[#9EB0CA] cursor-pointer hover:text-[#9EB0CA]"
               variant={"outline"}
             >
               Contact Us
-            </Button>
+            </Button> */}
           </div>
         </div>
 

@@ -8,8 +8,8 @@ const GetInTouch = () => {
       <div className="space-y-8">
         <h3 className={`text-2xl ${inter.className}`}>Get Started</h3>
         <h1
-          className={`text-6xl lg:text-[80px] lg:leading-[100px] ${acme.className}`}
-          data-aos="flip-left"
+          className={`text-5xl lg:text-[80px] lg:leading-[100px] ${acme.className}`}
+          data-aos="flip-up"
         >
           Get in touch with us. We&apos;re here to assist you.
         </h1>

@@ -1,3 +1,4 @@
+import { Minus } from "lucide-react";
 import { dmSans } from "../fonts";
 
 const Testimonial = () => {
@@ -64,41 +65,56 @@ const Testimonial = () => {
     },
   ];
   const getBgColor = (index: number) => {
-    if (index === 0) return "bg-black text-white";
+    const cyclePosition = index % 3;
 
-    const cyclePosition = (index - 1) % 3;
-
-    if (cyclePosition === 0) return "bg-white text-[#1E1E1E]";
-    return "bg-[#FFF5E4] text-[#514F6E]]";
+    switch (cyclePosition) {
+      case 0:
+        return "bg-black text-white";
+      case 1:
+        return "bg-white text-[#1E1E1E]";
+      case 2:
+        return "bg-[#FFF5E4] text-[#514F6E]";
+      default:
+        return "";
+    }
   };
+
   return (
     <div className="bg-[#498AC6]/8">
-      <div className="max-w-[1300px] m-auto py-20 grid grid-cols-2 gap-y-10 gap-x-20  ">
-        <div className="row-span-2 space-y-3.5" data-aos="zoom-in">
-          <h1 className={`${dmSans.className} font-bold text-4xl`}>
-            Hear what our clients say
-          </h1>
-          <p className={`${dmSans.className} text-lg text-[#5E6A95]`}>
-            Don&apos;t just take our word for it. Here are a few (of many)
-            reviews from our clients.
-          </p>
-        </div>
-        {test.map((item, index) => (
-          <div
-            className={`${getBgColor(
-              index
-            )} row-span-4 rounded-xl p-10 space-y-5 ${dmSans.className}`}
-            key={index}
-            data-aos="fade-up"
-          >
-            <p className="text-lg">{item.body}</p>
-
-            <div>
-              <h3 className="font-bold text-lg">{item.name}</h3>
-              <p className="text-lg">{item.team}</p>
-            </div>
+      <div className="max-w-[1300px] m-auto py-20  pt-[100px] lg:pt-[120px] px-10 xl:px-0 space-y-3.5">
+        <h1
+          className={`${dmSans.className} text-[#4591CA] text-lg uppercase font-bold  flex items-center gap-2`}
+        >
+          <Minus />
+          Testimonials
+        </h1>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 gap-x-20 ">
+          <div className="row-span-2 space-y-3.5" data-aos="zoom-in">
+            <h1 className={`${dmSans.className} font-bold text-4xl`}>
+              Hear what our clients say
+            </h1>
+            <p className={`${dmSans.className} text-lg text-[#5E6A95]`}>
+              Don&apos;t just take our word for it. Here are a few (of many)
+              reviews from our clients.
+            </p>
           </div>
-        ))}
+          {test.map((item, index) => (
+            <div
+              className={`${getBgColor(
+                index
+              )} row-span-4 rounded-xl p-10 space-y-5 ${dmSans.className}`}
+              key={index}
+              data-aos="fade-up"
+            >
+              <p className="text-lg">{item.body}</p>
+
+              <div>
+                <h3 className="font-bold text-lg">{item.name}</h3>
+                <p className="text-lg">{item.team}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

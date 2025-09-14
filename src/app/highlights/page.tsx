@@ -36,7 +36,7 @@ const Highlights = () => {
   ];
 
   return (
-    <div className="max-w-[1300px] m-auto py-12 items-center px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 ">
+    <div className="max-w-[1300px] m-auto py-12 items-center px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 pt-[100px] lg:pt-[120px] ">
       <div className="space-y-10">
         <div className="space-y-5" data-aos="zoom-in">
           <h3 className={`${acme.className} text-xl text-[#DFB058]`}>
@@ -66,7 +66,10 @@ const Highlights = () => {
           ))}
         </div>
       </div>
-      <div className="w-full max-w-xl content-center " data-aos="zoom-in-up">
+      <div
+        className="w-full max-w-xl content-center hidden lg:block"
+        data-aos="zoom-in-up"
+      >
         <Image
           src={"/highlight.svg"}
           alt=""

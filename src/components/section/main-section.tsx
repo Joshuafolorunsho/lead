@@ -49,9 +49,9 @@ const MainSection = () => {
         <div className="w-full max-w-xl content-center ">
           <Image
             alt="main-image"
-            src={"/get.svg"}
-            width={100}
-            height={100}
+            src={"/main.png"}
+            width={500}
+            height={500}
             className="w-full h-full"
           />
         </div>

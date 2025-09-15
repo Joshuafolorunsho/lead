@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { Button, buttonVariants } from "../ui/button";
+import { buttonVariants } from "../ui/button";
 import { manrope } from "@/app/fonts";
 import Link from "next/link";
+import WorkWithUs from "../work-with-us-dialog";
 
 const MainSection = () => {
   return (
@@ -41,6 +42,7 @@ const MainSection = () => {
             >
               Contact Us
             </Button> */}
+            <WorkWithUs />
           </div>
         </div>
 

@@ -1,8 +1,5 @@
 "use client";
-import { acme } from "@/app/fonts";
-import { Hamburger } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+
 import React from "react";
 import CardNav from "../CardNav";
 

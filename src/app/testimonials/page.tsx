@@ -91,11 +91,11 @@ const Testimonial = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 gap-x-20 ">
           <div className="row-span-2 space-y-3.5" data-aos="zoom-in">
             <h1 className={`${dmSans.className} font-bold text-4xl`}>
-              Hear what our clients say
+              Hear what our members say
             </h1>
             <p className={`${dmSans.className} text-lg text-[#5E6A95]`}>
               Don&apos;t just take our word for it. Here are a few (of many)
-              reviews from our clients.
+              reviews from our members.
             </p>
           </div>
           {test.map((item, index) => (

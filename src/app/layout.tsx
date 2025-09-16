@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white overflow-y-auto`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white overflow-y-auto overflow-x-clip`}
       >
         <TopNav />
         <AOSInitializer />

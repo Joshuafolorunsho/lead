@@ -89,7 +89,7 @@ const TopNav = () => {
     // </div>
     <CardNav
       logo="/logo.svg"
-      logoAlt="Lead Foundation"
+      logoAlt="LEAD Foundation"
       baseColor="#fff"
       menuColor="#000"
       items={items}

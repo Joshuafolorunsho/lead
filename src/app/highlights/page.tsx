@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { acme, poppins } from "../fonts";
-import { Check, CheckCircle, CheckCircle2 } from "lucide-react";
+import { Check } from "lucide-react";
 
 const Highlights = () => {
   const highlights = [
     {
       title: "Build Reading & Speaking Confidence: ",
-      body: "Practical methods to strengthen your reading ability and improve public speaking confidence.",
+      body: "Discover simple, hands-on ways to boost your reading skills and feel more at ease when speaking in front of others.",
     },
     {
       title: "Personal Development Blueprint: ",
@@ -23,7 +23,7 @@ const Highlights = () => {
     },
     {
       title: "Recognition & Rewards: ",
-      body: "Access bonus classes, earn a certificate of completion, and receive awards that celebrate your growth.",
+      body: "Earn extra classes, celebrate your progress with certificates, and enjoy rewards that highlight your achievements.",
     },
     {
       title: "Author a Book in 21 Days: ",
@@ -49,12 +49,7 @@ const Highlights = () => {
 
         <div className="space-y-[30px] ">
           {highlights.map((highlight, index) => (
-            <div
-              key={index}
-              className="flex gap-5 "
-              data-aos="fade-up"
-              // data-aos-delay={`${(index + 1) * 100}`}
-            >
+            <div key={index} className="flex gap-5 " data-aos="fade-up">
               <div className="h-6 w-6 rounded-full bg-[#4591CA] flex items-center justify-center shrink-0">
                 <Check color="white" size={16} strokeWidth={2} />
               </div>
@@ -71,11 +66,11 @@ const Highlights = () => {
         data-aos="zoom-in-up"
       >
         <Image
-          src={"/highlight.svg"}
+          src={"/highlight.jpg"}
           alt=""
-          width={100}
-          height={100}
-          className="w-full h-full"
+          width={2000}
+          height={2000}
+          className="w-full h-[400px] lg:h-[618px] object-cover rounded-3xl"
         />
       </div>
     </div>

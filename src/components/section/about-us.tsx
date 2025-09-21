@@ -8,13 +8,16 @@ const AboutUs = () => {
       className="max-w-[1300px] m-auto py-10 grid grid-cols-1 lg:grid-cols-2 px-10 xl:px-0 gap-10 xl:gap-[92px] items-center"
       id="about-us"
     >
-      <div className="w-full lg:max-w-[630px]" data-aos="fade-up">
+      <div
+        className="w-full max-w-[630px] m-auto max-h-[618px] overflow-clip "
+        data-aos="fade-up"
+      >
         <Image
-          src={"/About_Img.svg"}
+          src={"/mission.jpg"}
           alt=""
           width={500}
           height={500}
-          className="w-full"
+          className="w-full rounded-lg h-[400px] lg:h-[618px] object-cover"
         />
       </div>
       <div className="space-y-8">
@@ -25,7 +28,6 @@ const AboutUs = () => {
           className="space-y-3.5 lg:space-y-[30px]"
           data-aos="fade-down"
           data-aos-delay="300"
-          data-aos-once="false"
         >
           <h1
             className={`text-[#10111A] text-4xl lg:text-[52px] ${acme.className}`}

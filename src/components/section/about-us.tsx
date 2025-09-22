@@ -13,10 +13,10 @@ const AboutUs = () => {
         data-aos="fade-up"
       >
         <Image
-          src={"/mission.jpg"}
+          src={"/mission2.jpg"}
           alt=""
-          width={500}
-          height={500}
+          width={2000}
+          height={2000}
           className="w-full rounded-lg h-[400px] lg:h-[618px] object-cover"
         />
       </div>

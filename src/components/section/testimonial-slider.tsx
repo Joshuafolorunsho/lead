@@ -11,12 +11,12 @@ const testimonials = [
   },
   {
     name: "Falola Tejumade  ",
-    team: "Team Ocean(June' 24 Edition) ",
+    team: "Team Ocean (June' 24 Edition) ",
     body: "I encourage anyone ready for a personal development journey in public speaking and writing to join this program",
   },
   {
     name: "Alumona Oluomachi ",
-    team: "Team Cyan(June' 24 Edition) ",
+    team: "Team Cyan (June' 24 Edition) ",
     body: "I was chatting with a friend and he asked me why I was too formal, then I realized that Readers Cohort was working on me.",
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     name: "Ojo Omowumi ",
-    team: "Team Ginger(Aug' 23 Edition) ",
+    team: "Team Ginger (Aug' 23 Edition) ",
     body: "I am happy because the changes were evident in my life. I was able to work on my weakness and transform it into my strength. ",
   },
   {
@@ -36,7 +36,7 @@ const testimonials = [
   },
   {
     name: "Isaac Precious",
-    team: "Team Ginger(Aug' 23 Edition) ",
+    team: "Team Ginger (Aug' 23 Edition) ",
     body: "Readers Cohort is a place to be trained, disciplined, and impacted. Join the next edition and see how much value you will gain. ",
   },
   {

@@ -16,7 +16,7 @@ const TopNav = () => {
       },
     },
     {
-      label: "Testmonials",
+      label: "Testimonials",
       bgColor: "#170D27",
       textColor: "#fff",
       links: {

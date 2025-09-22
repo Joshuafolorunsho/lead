@@ -175,13 +175,15 @@ const CardNav: React.FC<CardNavProps> = ({
       >
         <div className="card-nav-top absolute inset-x-0 top-0 h-[60px] flex items-center justify-between p-2 pl-[1.1rem] z-[2]">
           <div className="logo-container flex items-center  ">
-            <Image
-              src={logo}
-              alt={logoAlt}
-              className="logo h-[48px]"
-              width={100}
-              height={100}
-            />
+            <Link href={"/"}>
+              <Image
+                src={logo}
+                alt={logoAlt}
+                className="logo h-[48px]"
+                width={100}
+                height={100}
+              />
+            </Link>
           </div>
           <div
             className={`hamburger-menu ${

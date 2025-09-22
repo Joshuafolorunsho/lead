@@ -11,11 +11,11 @@ const Testimonial = () => {
     {
       body: "I was inspired to join The Readers Cohort by a graduate's success story, and my own experience was both challenging and wonderfully rewarding. The program taught me the precise use of punctuation, how to maintain focus while reading, and significantly improved my writing and teamwork skills. I learned the power of intentionality and commitment, and I highly encourage anyone ready to improve their reading, writing, and public speaking to sign up for the next edition—it will be a transformative experience.",
       name: "Falola Tejumade  ",
-      team: "Team Ocean(June' 24 Edition) ",
+      team: "Team Ocean (June' 24 Edition) ",
     },
     {
       name: "Alumona Oluomachi Esther",
-      team: "Team Cyan(June' 24 Edition) ",
+      team: "Team Cyan (June' 24 Edition) ",
       body: "Readers Cohort has fundamentally transformed my writing and reading; I've become unconsciously conscious of proper punctuation, my reading capacity has greatly enhanced, and my self-esteem has soared. I am deeply grateful to Director Miss Damilola Fatunla for her vision and to all the executives, team leaders, and my accountability partner for their amazing efforts. I urge everyone: come and get your life changed by joining the next edition in August—don't miss this opportunity!",
     },
     {
@@ -25,7 +25,7 @@ const Testimonial = () => {
     },
     {
       name: "Ojo Omowumi ",
-      team: "Team Ginger(Aug' 23 Edition) ",
+      team: "Team Ginger (Aug' 23 Edition) ",
       body: "From day one, this training stretched me through disciplined routines like 5:30 am wake-ups and reading 40 pages daily, which profoundly improved my reading skills and vocabulary. The changes were evident as I transformed my weaknesses into strengths, avoided probation, and grew immensely in consistency and intentionality. I also made wonderful new friends on this journey and learned that with determination, focus, and God's lead, no mountain is too high to climb.",
     },
     {
@@ -35,7 +35,7 @@ const Testimonial = () => {
     },
     {
       name: "Isaac Precious",
-      team: "Team Ginger(Aug' 23 Edition) ",
+      team: "Team Ginger (Aug' 23 Edition) ",
       body: "My experience at Readers Cohort was intensely transformative, stretching me through 5 a.m. Spark Moments and sleepless nights that taught me consistency, time management, and self-discipline. I am deeply grateful to Director Miss Fatunla Damilola, the Executives, my Team Leader, and my accountability partner, Miss Oluwanisola Eunice, for their unwavering support and wisdom. Readers Cohort is truly a place to be trained, disciplined, and impacted—I highly encourage everyone to join the next edition and experience the immense value for themselves.",
     },
     {
@@ -60,7 +60,7 @@ const Testimonial = () => {
     },
     {
       name: "Irewole Emmanuel ",
-      team: "Team Neon(June' 24 Edition)",
+      team: "Team Neon (June' 24 Edition)",
       body: "Inspired by a friend's achievement, I joined the Readers Cohort and it became one of my best decisions. The program was an incredible eye-opener, filled with dynamic sessions, inspiring camaraderie, and insightful discussions that deepened my love for literature. Most profoundly, it helped me overcome procrastination, instilling a discipline that has boosted my productivity and efficiency across all areas of my life.",
     },
   ];

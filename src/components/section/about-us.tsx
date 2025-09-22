@@ -2,11 +2,11 @@ import { abel, acme } from "@/app/fonts";
 import Image from "next/image";
 import React from "react";
 
-const AboutUs = () => {
+const MissionAndVission = () => {
   return (
     <div
       className="max-w-[1300px] m-auto py-10 grid grid-cols-1 lg:grid-cols-2 px-10 xl:px-0 gap-10 xl:gap-[92px] items-center"
-      id="about-us"
+      // id="about-us"
     >
       <div
         className="w-full max-w-[630px] m-auto max-h-[618px] overflow-clip "
@@ -67,4 +67,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default MissionAndVission;

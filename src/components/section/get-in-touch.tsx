@@ -1,5 +1,6 @@
 import { acme, inter } from "@/app/fonts";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const GetInTouch = () => {
@@ -17,19 +18,37 @@ const GetInTouch = () => {
       <div className="flex gap-5 lg:flex-col">
         <div data-aos="zoom-in-down" data-aos-delay="500">
           <div className="w-14 h-14 rounded-full border border-[#B7B7B7] flex items-center justify-center hover:bg-black hover:text-[#B7B7B7] cursor-pointer transition-colors duration-700 ease-in-out">
-            <Facebook />
+            <Link
+              href={
+                "https://www.facebook.com/groups/980126147267353/?ref=share&mibextid=CTbP7E"
+              }
+              target="_blank"
+              className="h-full w-full flex items-center justify-center"
+            >
+              <Facebook />
+            </Link>
           </div>
         </div>
         <div data-aos="zoom-in-left" data-aos-delay="500">
-          <div className="w-14 h-14 rounded-full border border-[#B7B7B7] flex items-center justify-center hover:bg-black hover:text-[#B7B7B7] cursor-pointer transition-colors duration-700 ease-in-out">
-            <Instagram />
+          <div className="w-14 h-14 rounded-full border border-[#B7B7B7]  hover:bg-black hover:text-[#B7B7B7] cursor-pointer transition-colors duration-700 ease-in-out">
+            <Link
+              href={
+                "https://www.instagram.com/the_leadfoundation?igsh=MXM0NnNhd3BlbmpkdA=="
+              }
+              target="_blank"
+              className="h-full w-full flex items-center justify-center"
+            >
+              <Instagram />
+            </Link>
           </div>
         </div>
-        <div data-aos="zoom-in-up" data-aos-delay="500">
+        {/* <div data-aos="zoom-in-up" data-aos-delay="500">
           <div className="w-14 h-14 rounded-full border border-[#B7B7B7] flex items-center justify-center hover:bg-black hover:text-[#B7B7B7] cursor-pointer transition-colors duration-700 ease-in-out">
-            <Twitter />
+            <Link target="_blank" href={"https://www.google.com"}>
+              <Twitter />
+            </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

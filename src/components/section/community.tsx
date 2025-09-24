@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, buttonVariants } from "../ui/button";
 import { inter, manrope } from "@/app/fonts";
 import Link from "next/link";
 
@@ -28,7 +27,8 @@ const Community = () => {
       <div className="text-center mt-10">
         <Link
           className={`h-9 px-4 py-2 rounded-md bg-[#F6FDFF] border-[#5083C2] font-semibold cursor-pointer text-[#5083c2] hover:bg-[#D9F1FF] hover:border-[#5083C2]`}
-          href={`https://wa.me/+2348145156505?text=${"I want to join this program"}`}
+          href={`https://wa.me/+2348065817154?text=${"I want to be a member of LEAD foundation. My name is"}`}
+          target="_blank"
         >
           Join the Community
         </Link>

@@ -1,10 +1,11 @@
-import React, { useLayoutEffect, useRef, useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+"use client";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
-// use your own icon import if react-icons is not available
-// import { GoArrowUpRight } from 'react-icons/go';
+import { usePathname } from "next/navigation";
 
 type CardNavLink = {
   label: string;
@@ -39,14 +40,54 @@ const CardNav: React.FC<CardNavProps> = ({
   ease = "power3.out",
   baseColor = "#fff",
   menuColor,
-  buttonBgColor,
-  buttonTextColor,
 }) => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const navRef = useRef<HTMLDivElement | null>(null);
   const cardsRef = useRef<HTMLDivElement[]>([]);
   const tlRef = useRef<gsap.core.Timeline | null>(null);
+  const pathName = usePathname();
+
+  const [currentHash, setCurrentHash] = useState("");
+
+  useEffect(() => {
+    console.log("this runs");
+    const updateHash = () => {
+      setCurrentHash(window.location.hash);
+    };
+
+    updateHash();
+
+    window.addEventListener("hashchange", updateHash);
+
+    const intervalId = setInterval(updateHash, 100);
+
+    const handleScroll = () => {
+      if (window.scrollY < 50 && pathName === "/") {
+        setCurrentHash("");
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("hashchange", updateHash);
+      window.removeEventListener("scroll", handleScroll);
+      clearInterval(intervalId); // Clean up the interval
+    };
+  }, [pathName]);
+
+  const isActive = (href: string) => {
+    if (href.startsWith("/#")) {
+      const hash = href.split("#")[1];
+      return currentHash === `#${hash}`;
+    }
+
+    if (href === "/") {
+      return pathName === "/" && (!currentHash || currentHash === "#");
+    }
+
+    return pathName === href;
+  };
 
   const calculateHeight = () => {
     const navEl = navRef.current;
@@ -175,13 +216,15 @@ const CardNav: React.FC<CardNavProps> = ({
       >
         <div className="card-nav-top absolute inset-x-0 top-0 h-[60px] flex items-center justify-between p-2 pl-[1.1rem] z-[2]">
           <div className="logo-container flex items-center  ">
-            <Image
-              src={logo}
-              alt={logoAlt}
-              className="logo h-[48px]"
-              width={100}
-              height={100}
-            />
+            <Link href={"/"}>
+              <Image
+                src={logo}
+                alt={logoAlt}
+                className="logo h-[48px]"
+                width={100}
+                height={100}
+              />
+            </Link>
           </div>
           <div
             className={`hamburger-menu ${
@@ -207,7 +250,13 @@ const CardNav: React.FC<CardNavProps> = ({
 
           <div className="hidden lg:flex items-center gap-10 px-5">
             {items.slice(0, 3).map((item, index) => (
-              <Link key={index} href={item.links.href}>
+              <Link
+                key={index}
+                href={item.links.href}
+                className={`${
+                  isActive(item.links.href) && "text-[#063979] font-bold"
+                }`}
+              >
                 {item.label}
               </Link>
             ))}
@@ -249,14 +298,12 @@ const CardNav: React.FC<CardNavProps> = ({
                   href={item.links.href}
                   aria-label={item.links.ariaLabel}
                 >
-                  {/* <GoArrowUpRight className="nav-card-link-icon shrink-0" aria-hidden="true" /> */}
                   <ArrowUpRight
                     className="nav-card-link-icon shrink-0"
                     aria-hidden="true"
                   />
                   {item.links.label}
                 </a>
-                {/* // ))} */}
               </div>
             </div>
           ))}

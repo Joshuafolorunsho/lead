@@ -16,7 +16,7 @@ const TopNav = () => {
       },
     },
     {
-      label: "Testmonials",
+      label: "Testimonials",
       bgColor: "#170D27",
       textColor: "#fff",
       links: {
@@ -88,7 +88,7 @@ const TopNav = () => {
     //   <div className="h-2.5 bg-[#1577BE]"></div>
     // </div>
     <CardNav
-      logo="/logo.svg"
+      logo="/Logo.svg"
       logoAlt="LEAD Foundation"
       baseColor="#fff"
       menuColor="#000"

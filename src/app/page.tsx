@@ -1,4 +1,4 @@
-import AboutUs from "@/components/section/about-us";
+import MissionAndVission from "@/components/section/about-us";
 import Community from "@/components/section/community";
 import GetInTouch from "@/components/section/get-in-touch";
 import MainSection from "@/components/section/main-section";
@@ -9,7 +9,8 @@ export default function Home() {
     <div>
       <MainSection />
       <Community />
-      <AboutUs />
+      <div id="about-us" className="pt-[100px]"></div>
+      <MissionAndVission />
       <Testimonial />
       <GetInTouch />
     </div>

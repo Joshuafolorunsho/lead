@@ -2,7 +2,19 @@ import Image from "next/image";
 import React from "react";
 import { acme, poppins } from "../fonts";
 import { Check } from "lucide-react";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Highlights - The LEAD Foundation",
+  description:
+    "Build reading confidence, author a book in 21 days, learn international languages, and unlock your potential with our transformative program.",
+  openGraph: {
+    title: "Highlights - The LEAD Foundation",
+    description:
+      "Build reading confidence, author a book in 21 days, learn international languages, and unlock your potential with our transformative program.",
+    type: "website",
+  },
+};
 const Highlights = () => {
   const highlights = [
     {

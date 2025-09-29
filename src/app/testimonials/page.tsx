@@ -1,5 +1,18 @@
 import { Minus } from "lucide-react";
 import { dmSans } from "../fonts";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Testimonials - The LEAD Foundation",
+  description:
+    "Discover how our members unlocked their full potential—boosting reading comprehension, mastering writing and public speaking, and building lasting habits of discipline and time management.",
+  openGraph: {
+    title: "Testimonials- The LEAD Foundation",
+    description:
+      "Discover how our members unlocked their full potential—boosting reading comprehension, mastering writing and public speaking, and building lasting habits of discipline and time management.",
+    type: "website",
+  },
+};
 
 const Testimonial = () => {
   const test = [

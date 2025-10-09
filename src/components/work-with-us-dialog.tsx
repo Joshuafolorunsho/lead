@@ -35,7 +35,7 @@ const WorkWithUs = () => {
         <div className="h-full">
           {isMounted ? (
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeKESOmD3hgrn6eVrRsvDLK2uCM3oSv2Cihg0BtRprVNqEj7w/viewform?embedded=true"
+              src="https://forms.gle/vTALXNyyvtJ6bkFs9"
               width="100%"
               height="100%"
               className="rounded-lg"

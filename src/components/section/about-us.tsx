@@ -35,12 +35,11 @@ const MissionAndVission = () => {
             Our Mission
           </h1>
           <p className={`text-md lg:text-lg text-[#97918B] ${abel.className}`}>
-            We envision a world where literacy is not a privilege but a
-            universal right. By expanding access to literacy programs,
-            resources, and opportunities, The LEAD Foundation seeks to empower
-            individuals of all ages and backgrounds to thrive. A literate
-            population is not only more informed but also more confident,
-            engaged, and capable of shaping their future.
+            To bridge the gap between literacy and timidity in self-expression.
+            We are committed to helping individuals not only learn but also find
+            the courage to speak, write, and lead with bold confidence. Through
+            our programs and outreaches, we build confident communicators who
+            can express their thoughts with clarity and conviction.
           </p>
         </div>
         <div
@@ -54,12 +53,11 @@ const MissionAndVission = () => {
             Our Vision
           </h1>
           <p className={`text-md lg:text-lg text-[#97918B] ${abel.className}`}>
-            We believe literacy goes beyond reading and writing—it&apos;s about
-            the courage to use your voice. Our mission is to help individuals
-            develop the skills and confidence to express themselves without
-            fear. Through mentorship, community outreach, and training
-            initiatives, The LEAD Foundation creates supportive environments
-            where people can learn, grow, and speak with clarity and confidence.
+            To increase literacy in a larger percentage of the population. We
+            envision a society where everyone has access to the knowledge,
+            confidence, and communication skills needed to thrive. By promoting
+            literacy, we open doors to opportunities, personal growth, and
+            purposeful living.
           </p>
         </div>
       </div>

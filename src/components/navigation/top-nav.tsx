@@ -31,7 +31,7 @@ const TopNav = () => {
       textColor: "#fff",
       links: {
         label: "About us",
-        href: "/#about-us",
+        href: "/about-us",
         ariaLabel: "About us",
       },
       // {

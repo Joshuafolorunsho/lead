@@ -8,7 +8,10 @@ const page = () => {
     <div
       className={`pt-[100px] lg:pt-[120px] ${acme.className} pb-14 lg:pb-28 space-y-12 lg:space-y-24`}
     >
-      <div className="h-[300px] lg:h-[500px] bg-[url(/aheader.jpg)] bg-black bg-cover bg-center bg-no-repeat relative flex items-center justify-center">
+      <div
+        className="h-[300px] lg:h-[500px] bg-[url(/aheader.jpg)] bg-black bg-cover bg-center bg-no-repeat relative flex items-center justify-center"
+        data-aos="zoom-in"
+      >
         <div className="absolute inset-0 bg-black/80"></div>
         <div className="z-20 relative text-center space-y-3 ">
           <h1 className="text-white text-4xl md:text-[56px]">What We Do</h1>
@@ -23,10 +26,16 @@ const page = () => {
       <div className="max-w-[1300px] m-auto">
         <div className="  px-6 md:px-10 lg:px-14 space-y-10 md:space-y-20">
           <div className="flex flex-wrap gap-8 md:gap-16 items-center">
-            <div className="md:w-1/2 w-full rounded-3xl overflow-clip">
+            <div
+              className="md:w-1/2 w-full rounded-3xl overflow-clip"
+              data-aos="fade-left"
+            >
               <Image src={"/impact.jpg"} alt="" width={1000} height={1000} />
             </div>
-            <div className="md:w-2/5 w-full space-y-3 lg:space-y-6">
+            <div
+              className="md:w-2/5 w-full space-y-3 lg:space-y-6"
+              data-aos="fade-right"
+            >
               <h1 className="text-2xl lg:text-4xl">Our Impact</h1>
               <p className=" text-[#737373D6] text-sm lg:text-base">
                 Since 2020, we&apos;ve touched lives through ten impactful
@@ -38,7 +47,10 @@ const page = () => {
           </div>
 
           <div className="flex flex-row-reverse flex-wrap gap-8 md:gap-16 items-center">
-            <div className="md:w-1/2 w-full rounded-3xl overflow-clip">
+            <div
+              className="md:w-1/2 w-full rounded-3xl overflow-clip"
+              data-aos="fade-right"
+            >
               <Image
                 src={"/initiative.jpg"}
                 alt=""
@@ -46,7 +58,10 @@ const page = () => {
                 height={1000}
               />
             </div>
-            <div className="md:w-2/5 w-full space-y-3 lg:space-y-6">
+            <div
+              className="md:w-2/5 w-full space-y-3 lg:space-y-6"
+              data-aos="fade-left"
+            >
               <h1 className="text-2xl lg:text-4xl">
                 Our Flagship Initiative: The Readers Cohort.
               </h1>
@@ -61,10 +76,10 @@ const page = () => {
       </div>
       <div></div>
       <div className="max-w-[1300px] m-auto flex flex-wrap gap-6 lg:gap-0 items-center px-6 md:px-10 xl:px-0">
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 w-full" data-aos="fade-down">
           <Image src={"/founder.jpg"} alt="" width={1000} height={1000} />
         </div>
-        <div className="lg:w-1/2 w-full lg:px-14 space-y-4">
+        <div className="lg:w-1/2 w-full lg:px-14 space-y-4" data-aos="fade-up">
           <h1 className="text-3xl lg:text-[55px]">Our Founder&apos;s Story</h1>
           <p className="text-[#0000007D] text-base lg:text-xl">
             Founded by Damilola Esan-Williams (formerly Fatunla) out of a deep

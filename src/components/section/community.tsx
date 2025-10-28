@@ -27,7 +27,7 @@ const Community = () => {
       <div className="text-center mt-10">
         <Link
           className={`h-9 px-4 py-2 rounded-md bg-[#F6FDFF] border-[#5083C2] font-semibold cursor-pointer text-[#5083c2] hover:bg-[#D9F1FF] hover:border-[#5083C2]`}
-          href={`https://wa.me/+2348065817154?text=${"I want to be a member of LEAD foundation. My name is"}`}
+          href={`https://wa.me/+2348065817154?text=${"Hi! I'm _______ (your name). I've seen the amazing work The LEAD Foundation is doing, and I'd love to be part of it as a _______ (donor, member, partner, or volunteer)."}`}
           target="_blank"
         >
           Join the Community

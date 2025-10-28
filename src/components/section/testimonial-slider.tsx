@@ -6,19 +6,19 @@ import { Marquee } from "@/components/ui/marquee";
 const testimonials = [
   {
     name: "Monioluwa Adebayo Dorcas",
-    body: "Lead Foundation has helped me grow, especially in using idioms and words well. Its inspiring community makes learning feel beautiful.",
+    body: "The LEAD Foundation has helped me grow, especially in using idioms and words well. Its inspiring community makes learning feel beautiful.",
   },
   {
     name: "Peninah Nzambi Nzoka",
-    body: "LEAD Foundation has strengthened my grammar and communication, and I’m grateful for how it’s helped me grow into a confident communicator.",
+    body: "The LEAD Foundation has strengthened my grammar and communication, and I’m grateful for how it’s helped me grow into a confident communicator.",
   },
   {
     name: "Osuntuyi Blessing.",
-    body: "LEAD Foundation’s quizzes and lessons pushed me to grow. Even when I stumbled, I came back stronger and real change started there.",
+    body: "The LEAD Foundation’s quizzes and lessons pushed me to grow. Even when I stumbled, I came back stronger and real change started there.",
   },
   {
     name: "Victor Jonah.",
-    body: "Congrats to LEAD Foundation on 5 years. Their posts and quizzes have helped me relearn and correct things I’d forgotten about English and life.",
+    body: "Congrats to ther LEAD Foundation on 5 years. Their posts and quizzes have helped me relearn and correct things I’d forgotten about English and life.",
   },
   {
     name: "Nurse Oluwaseyi Olajumoke.",
@@ -26,11 +26,11 @@ const testimonials = [
   },
   {
     name: "Oko-uche Goodness.",
-    body: "LEAD Foundation’s daily teachings have sharpened my grammar and boosted my confidence to speak, write, and express myself clearly.",
+    body: "The LEAD Foundation’s daily teachings have sharpened my grammar and boosted my confidence to speak, write, and express myself clearly.",
   },
   {
     name: "Miracle Akinkunmi.",
-    body: "Following Lead Foundation has helped me grow in vocabulary, communication, and self-reflection. Daily teachings keep me improving.",
+    body: "Following the LEAD Foundation has helped me grow in vocabulary, communication, and self-reflection. Daily teachings keep me improving.",
   },
   // {
   //   name: "Ofiara Joy Amarachukwu",

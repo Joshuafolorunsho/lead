@@ -15,9 +15,9 @@ const Footer = () => {
           className="w-20 h-20"
         />
         <h1
-          className={`${acme.className} text-[3rem] lg:text-[4rem] text-center uppercase`}
+          className={`${acme.className} text-[3rem] lg:text-[4rem] text-center `}
         >
-          Lead Foundation
+          The LEAD Foundation
         </h1>
       </div>
     </footer>

@@ -17,11 +17,11 @@ export const metadata: Metadata = {
 const Testimonial = () => {
   const test = [
     {
-      body: "Lead Foundation has truly been a space of growth for me! I've learnt how to use idioms confidently and apply words in the right context. It’s more than just learning it’s a community that inspires and sharpens. Thank to Lead foundation for making growth so beautiful!",
+      body: "The LEAD Foundation has truly been a space of growth for me! I've learnt how to use idioms confidently and apply words in the right context. It’s more than just learning it’s a community that inspires and sharpens. Thank to the LEAD foundation for making growth so beautiful!",
       name: "Monioluwa Adebayo Dorcas",
     },
     {
-      body: "I’m deeply grateful for the positive impact the Foundation has had on my journey. LEAD Foundation focuses on enhancing English proficiency by training on key aspects of grammar and communication. Thank you, LEAD Foundation, for empowering leaders to communicate with confidence and excellence.",
+      body: "I’m deeply grateful for the positive impact the Foundation has had on my journey. The LEAD Foundation focuses on enhancing English proficiency by training on key aspects of grammar and communication. Thank you, the LEAD Foundation, for empowering leaders to communicate with confidence and excellence.",
       name: "Peninah Nzambi Nzoka",
     },
     {

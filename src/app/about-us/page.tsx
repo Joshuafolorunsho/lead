@@ -137,6 +137,80 @@ const page = () => {
         </div>
       </div>
       <div></div>
+      <div className="max-w-[1300px] m-auto px-6 md:px-10 xl:px-0 space-y-4">
+        <h1 className="text-center text-3xl lg:text-[55px]">
+          The LEAD Foundation in Cameroun
+        </h1>
+        <p
+          className={`text-[#0000007D] text-base lg:text-xl ${abel.className}`}
+        >
+          The LEAD Foundation brought a message of confidence and self-belief to
+          the students of Rene Bilingual Secondary College in Douala, Cameroon —
+          and it was nothing short of inspiring.
+        </p>
+
+        <p
+          className={`text-[#0000007D] text-base lg:text-xl ${abel.className}`}
+        >
+          Led by the Coordinators, Ma&apos;am Jenet Atabong, Ma&apos;am Bianca
+          Banfila, and Ma&apos;am Mirabel Beri, the outreach gathered over 50
+          vibrant students eager to learn, share, and grow. The session explored
+          the theme of Self-Confidence through engaging activities — from
+          questionnaires and short talks to games like Pitch Yourself, Talk
+          Down, Tongue Twisters, and Read Worm.
+        </p>
+
+        <p
+          className={`text-[#0000007D] text-base lg:text-xl ${abel.className}`}
+        >
+          Each activity encouraged the students to step out of their comfort
+          zones and rediscover the power of their voices. One unforgettable
+          moment was when a shy Form Five student, who could barely speak at
+          first, found the courage to introduce herself boldly before her
+          classmates. By the end of the program, she stood tall, confident,
+          smiling, and proud. It was a beautiful reminder of what
+          self-confidence can do.
+        </p>
+
+        <p
+          className={`text-[#0000007D] text-base lg:text-xl ${abel.className}`}
+        >
+          The atmosphere was filled with laughter, learning, and transformation.
+          The school administrators were deeply moved and expressed their desire
+          to have The LEAD Foundation team return during the holiday lessons for
+          a continuation of the program.
+        </p>
+
+        <p
+          className={`text-[#0000007D] text-base lg:text-xl ${abel.className}`}
+        >
+          The event concluded with awards and thoughtful gifts for participants
+          who showed courage and growth. Though photography was restricted
+          during this first visit, plans have been made for full documentation
+          in the next session.
+        </p>
+
+        <p
+          className={`text-[#0000007D] text-base lg:text-xl ${abel.className}`}
+        >
+          This outreach marks a significant milestone as The LEAD Foundation
+          spreads its tentacles beyond Nigeria into Cameroon, expanding the
+          reach of our mission to build confidence, literacy, and
+          self-expression in young people across Africa.
+        </p>
+
+        <div className="rounded-xl overflow-clip">
+          <Image
+            src={"/came.jpg"}
+            alt="the LEAD foundation in cameroun"
+            width={1000}
+            height={1000}
+            className="w-full"
+          />
+        </div>
+      </div>
+      <div></div>
+
       <div className="px-6 md:px-10 overflow-clip">
         <div className="bg-[#000000] max-w-[1300px] m-auto p-6 lg:p-10 rounded-2xl lg:rounded-4xl space-y-5 lg:space-y-17.5 lg:relative">
           <div className="space-y-5 lg:space-y-10">

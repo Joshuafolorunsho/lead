@@ -23,27 +23,27 @@ const Testimonial = () => {
     },
     {
       body: "I’m deeply grateful for the positive impact the Foundation has had on my journey. The LEAD Foundation focuses on enhancing English proficiency by training on key aspects of grammar and communication. Thank you, the LEAD Foundation, for empowering leaders to communicate with confidence and excellence.",
-      name: "Peninah Nzambi Nzoka",
+      name: "Peninah Nzambi Nzoka",
     },
     {
       body: "The LEAD Foundation has truly sharpened my mind. Each quiz challenges me, and every lesson fuels my desire to grow. There were moments I missed a few answers and told myself, “Next time, I must do better” and I did. That challenge sparked real change in me. Thank you for constantly pushing me to be better. ",
-      name: "Osuntuyi Blessing.",
+      name: "Osuntuyi Blessing",
     },
     {
       body: "I want to say a big congratulations to the LEAD foundation on their 5th year anniversary they have been relentless, and their educative programs on understanding English and life better has helped, reminded me of things I had forgotten and things I do get wrong about English, through their posts and quizzes, it has been really helpful and educating.",
-      name: "Victor Jonah.",
+      name: "Victor Jonah",
     },
     {
       body: "I am one of the silent followers of this Foundation. Thank you to the Team Lead for the opportunity to learn, unlearn, and relearn. Each day I look forward to a new post to learn from them. To the extent that two years ago, what was posted online was seen directly in my professional exam. With ease, I just ticked the answer. Thank you for the humanity.",
-      name: " Nurse Oluwaseyi Olajumoke.",
+      name: " Nurse Oluwaseyi Olajumoke",
     },
     {
       body: "I am one of the luckiest individuals to enjoy the daily teachings, sponsored by The LEAD Foundation. I have gained lots of knowledge, especially when it comes to punctuation marks, clauses, and how to easily communicate using simple yet precise grammar. The LEAD Foundation has shaped my grammatical life and has given me the boldness to speak fluently, write effortlessly, and express myself without fear of how to place my English or how to express myself using clear and precise words.",
-      name: " Oko-uche Goodness.",
+      name: " Oko-uche Goodness",
     },
     {
       body: "I've learnt a lot since following the lead foundation, ranging from learning new words, using of word correctly, thinking deeply, effective communication and lot more. Following the daily teaching also helps me to examine myself daily in any area I'm lagging and correct myself.",
-      name: "Miracle Akinkunmi.",
+      name: "Miracle Akinkunmi",
     },
     // {
     //   body: "I enrolled in The Readers Cohort for the intellectual challenge, and it was one of my best decisions this year. The training completely transformed my time management, eliminating idle moments and teaching me to achieve more. Under the guidance of Director Fatunla Damilola and the executives, it became a home away from home—a training ground where I could showcase my talents, gain new perspectives, and dramatically improve my reading, writing, and speaking abilities.",

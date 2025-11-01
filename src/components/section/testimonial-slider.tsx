@@ -13,23 +13,23 @@ const testimonials = [
     body: "The LEAD Foundation has strengthened my grammar and communication, and I’m grateful for how it’s helped me grow into a confident communicator.",
   },
   {
-    name: "Osuntuyi Blessing.",
+    name: "Osuntuyi Blessing",
     body: "The LEAD Foundation’s quizzes and lessons pushed me to grow. Even when I stumbled, I came back stronger and real change started there.",
   },
   {
-    name: "Victor Jonah.",
+    name: "Victor Jonah",
     body: "Congrats to ther LEAD Foundation on 5 years. Their posts and quizzes have helped me relearn and correct things I’d forgotten about English and life.",
   },
   {
-    name: "Nurse Oluwaseyi Olajumoke.",
+    name: "Nurse Oluwaseyi Olajumoke",
     body: "I’m a quiet follower of the Foundation. Their posts have taught me so much and even helped me ace a question in my professional exam.",
   },
   {
-    name: "Oko-uche Goodness.",
+    name: "Oko-uche Goodness",
     body: "The LEAD Foundation’s daily teachings have sharpened my grammar and boosted my confidence to speak, write, and express myself clearly.",
   },
   {
-    name: "Miracle Akinkunmi.",
+    name: "Miracle Akinkunmi",
     body: "Following the LEAD Foundation has helped me grow in vocabulary, communication, and self-reflection. Daily teachings keep me improving.",
   },
   // {

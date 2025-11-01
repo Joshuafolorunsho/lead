@@ -3,6 +3,7 @@ import React from "react";
 import { acme, poppins } from "../fonts";
 import { Check } from "lucide-react";
 import { Metadata } from "next";
+import ReadersCohort from "@/components/section/readers-cohort";
 
 export const metadata: Metadata = {
   title: "Highlights - The LEAD Foundation",
@@ -63,43 +64,46 @@ const Highlights = () => {
   ];
 
   return (
-    <div className="max-w-[1300px] m-auto py-12 items-center px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 pt-[100px] lg:pt-[120px] ">
-      <div className="space-y-10">
-        <div className="space-y-5" data-aos="zoom-in">
-          <h3 className={`${acme.className} text-xl text-[#DFB058]`}>
-            Unlock Your Potential in Just 21 Days
-          </h3>
-          <h1 className={`${poppins.className} text-4xl font-semibold`}>
-            Program Highlights
-          </h1>
-        </div>
+    <div>
+      <div className="max-w-[1300px] m-auto py-12 items-center px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 pt-[100px] lg:pt-[120px] ">
+        <div className="space-y-10">
+          <div className="space-y-5" data-aos="zoom-in">
+            <h3 className={`${acme.className} text-xl text-[#DFB058]`}>
+              Unlock Your Potential in Just 21 Days
+            </h3>
+            <h1 className={`${poppins.className} text-4xl font-semibold`}>
+              Program Highlights
+            </h1>
+          </div>
 
-        <div className="space-y-[30px] ">
-          {highlights.map((highlight, index) => (
-            <div key={index} className="flex gap-5 " data-aos="fade-up">
-              <div className="h-6 w-6 rounded-full bg-[#4591CA] flex items-center justify-center shrink-0">
-                <Check color="white" size={16} strokeWidth={2} />
+          <div className="space-y-[30px] ">
+            {highlights.map((highlight, index) => (
+              <div key={index} className="flex gap-5 " data-aos="fade-up">
+                <div className="h-6 w-6 rounded-full bg-[#4591CA] flex items-center justify-center shrink-0">
+                  <Check color="white" size={16} strokeWidth={2} />
+                </div>
+                <p className={`${poppins.className} text-xl m-0 leading-tight`}>
+                  {/* <span className="font-bold">{highlight.title}</span>{" "} */}
+                  {highlight.body}
+                </p>
               </div>
-              <p className={`${poppins.className} text-xl m-0 leading-tight`}>
-                {/* <span className="font-bold">{highlight.title}</span>{" "} */}
-                {highlight.body}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
+        </div>
+        <div
+          className="w-full max-w-xl content-center hidden lg:block"
+          data-aos="zoom-in-up"
+        >
+          <Image
+            src={"/highlight.jpg"}
+            alt=""
+            width={2000}
+            height={2000}
+            className="w-full h-[400px] lg:h-[618px] object-cover rounded-3xl"
+          />
         </div>
       </div>
-      <div
-        className="w-full max-w-xl content-center hidden lg:block"
-        data-aos="zoom-in-up"
-      >
-        <Image
-          src={"/highlight.jpg"}
-          alt=""
-          width={2000}
-          height={2000}
-          className="w-full h-[400px] lg:h-[618px] object-cover rounded-3xl"
-        />
-      </div>
+      <ReadersCohort />
     </div>
   );
 };

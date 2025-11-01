@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { acme } from "../fonts";
+import { abel, acme } from "../fonts";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 
@@ -15,7 +15,9 @@ const page = () => {
         <div className="absolute inset-0 bg-black/80"></div>
         <div className="z-20 relative text-center space-y-3 ">
           <h1 className="text-white text-4xl md:text-[56px]">What We Do</h1>
-          <p className=" text-white text-sm md:text-lg md:w-1/2 w-3/4 m-auto opacity-82">
+          <p
+            className={`text-white text-sm md:text-lg md:w-1/2 w-3/4 m-auto opacity-82 ${abel.className}`}
+          >
             We go beyond teaching English—we nurture confident communicators,
             bold thinkers, and purposeful leaders through our programs,
             workshops, and community outreaches.
@@ -37,7 +39,9 @@ const page = () => {
               data-aos="fade-right"
             >
               <h1 className="text-2xl lg:text-4xl">Our Impact</h1>
-              <p className=" text-[#737373D6] text-sm lg:text-base">
+              <p
+                className={`text-[#737373D6] text-sm lg:text-base ${abel.className}`}
+              >
                 Since 2020, we&apos;ve touched lives through ten impactful
                 outreaches across schools, rural communities, and homes for
                 orphans—helping hundreds find their confidence, sharpen their
@@ -65,7 +69,9 @@ const page = () => {
               <h1 className="text-2xl lg:text-4xl">
                 Our Flagship Initiative: The Readers Cohort.
               </h1>
-              <p className=" text-[#737373D6] text-sm lg:text-base">
+              <p
+                className={`text-[#737373D6] text-sm lg:text-base ${abel.className}`}
+              >
                 A transformative platform where members build reading habits,
                 improve writing skills, and gain public speaking confidence
                 —equipping them for personal and professional success.
@@ -79,13 +85,54 @@ const page = () => {
         <div className="lg:w-1/2 w-full" data-aos="fade-down">
           <Image src={"/founder.jpg"} alt="" width={1000} height={1000} />
         </div>
-        <div className="lg:w-1/2 w-full lg:px-14 space-y-4" data-aos="fade-up">
-          <h1 className="text-3xl lg:text-[55px]">Our Founder&apos;s Story</h1>
+        <div
+          className={`lg:w-1/2 w-full lg:px-14 space-y-4 ${abel.className}`}
+          data-aos="fade-up"
+        >
+          <h1 className={`text-3xl lg:text-[55px] ${acme.className}`}>
+            Our Founder&apos;s Story
+          </h1>
           <p className="text-[#0000007D] text-base lg:text-xl">
-            Founded by Damilola Esan-Williams (formerly Fatunla) out of a deep
-            passion to help people find their voice and purpose, the Foundation
-            continues to inspire others to believe in themselves, and their
-            dreams.
+            Damilola Esan-Williams is a multifaceted professional making
+            significant strides as a Dental Therapist, Public Health Expert,
+            Author, Brand Developer, Writer, and Personal Development Coach. Her
+            work has inspired many individuals to unlock their potential and
+            pursue personal growth.
+          </p>
+          <p className="text-[#0000007D] text-base lg:text-xl lg:hidden">
+            With seven e-books authored, Damilola showcases her skill in
+            creating engaging content that resonates deeply with readers. As an
+            award-winning Global Leader and Team Lead at The LEAD Foundation,
+            she is dedicated to teaching the effective use of language and
+            grammar, helping individuals build self-confidence and articulate
+            their ideas with poise.
+          </p>
+          <p className="text-[#0000007D] text-base lg:text-xl">
+            In addition to her educational initiatives, Damilola organizes
+            outreach programs aimed at promoting self-awareness and purpose
+            discovery, providing access to quality education for underserved
+            communities. Through the Readers Cohort, a branch of her NGO, she
+            cultivates a vibrant community of writers, readers, and public
+            speakers, encouraging continuous learning and collaboration.
+          </p>
+          <p className="text-[#0000007D] text-base lg:text-xl">
+            Damilola&apos;s expertise extends to content creation, CV and resume
+            development, editing, and proofreading, enabling numerous scholars
+            and professionals to achieve their aspirations through her writing
+            brand, Lizdachris Innovative Writing Solution.
+          </p>
+          <p className="text-[#0000007D] text-base lg:text-xl lg:hidden">
+            As an award-winning Surprise Call Ambassador, she has made a
+            profound impact across Africa and beyond by fostering connections
+            and driving positive change through her exceptional communication
+            skills.
+          </p>
+          <p className="text-[#0000007D] text-base lg:text-xl">
+            Her qualifications include certifications in leadership, creative
+            writing, public speaking, networking, storytelling, and advocacy in
+            alignment with the United Nations Sustainable Development Goals
+            (SDGs). Damilola is on a purposeful journey, demonstrating a strong
+            commitment to personal development and empowerment.
           </p>
         </div>
       </div>
@@ -98,7 +145,7 @@ const page = () => {
               <h1 className="text-white text-3xl lg:text-5xl">
                 You&apos;re Not Alone on This Journey
               </h1>
-              <p className="text-[#FFFFFFBA] ">
+              <p className={`text-[#FFFFFFBA] ${abel.className}`}>
                 Partner, donate, or sponsor an outreach. Together, we can build
                 confidence, inspire purpose, and transform lives through the
                 power of communication.

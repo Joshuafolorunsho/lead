@@ -1,6 +1,7 @@
 import { Minus } from "lucide-react";
 import { dmSans } from "../fonts";
 import { Metadata } from "next";
+import ReadersCohort from "@/components/section/readers-cohort";
 
 export const metadata: Metadata = {
   title: "Testimonials - The LEAD Foundation",
@@ -122,7 +123,7 @@ const Testimonial = () => {
 
   return (
     <div className="bg-[#498AC6]/8">
-      <div className="max-w-[1300px] m-auto py-20  pt-[100px] lg:pt-[120px] px-10 xl:px-0 space-y-3.5">
+      <div className="max-w-[1300px] m-auto py-20  pt-[100px] lg:pt-[120px] px-6 md:px-10 xl:px-0 space-y-3.5">
         <h1
           className={`${dmSans.className} text-[#4591CA] text-lg uppercase font-bold  flex items-center gap-2`}
         >
@@ -143,7 +144,9 @@ const Testimonial = () => {
             <div
               className={`${getBgColor(
                 index
-              )} row-span-4 rounded-xl p-10 space-y-5 ${dmSans.className}`}
+              )} row-span-4 rounded-xl p-5 lg:p-10 space-y-5 ${
+                dmSans.className
+              }`}
               key={index}
               data-aos="fade-up"
             >
@@ -157,6 +160,7 @@ const Testimonial = () => {
           ))}
         </div>
       </div>
+      <ReadersCohort />
     </div>
   );
 };

@@ -29,10 +29,16 @@ const page = () => {
         <div className="  px-6 md:px-10 lg:px-14 space-y-10 md:space-y-20">
           <div className="flex flex-wrap gap-8 md:gap-16 items-center">
             <div
-              className="md:w-1/2 w-full rounded-3xl overflow-clip"
+              className="md:w-1/2 w-full rounded-3xl overflow-clip h-52 lg:h-80"
               data-aos="fade-left"
             >
-              <Image src={"/impact.jpg"} alt="" width={1000} height={1000} />
+              <Image
+                src={"/sup.jpg"}
+                alt=""
+                width={1000}
+                height={1000}
+                className="object-cover h-full "
+              />
             </div>
             <div
               className="md:w-2/5 w-full space-y-3 lg:space-y-6"
@@ -227,7 +233,7 @@ const page = () => {
             </div>
           </div>
           <Link
-            href={"mailto:theleadfoundationng@gmail.com"}
+            href={"mailto:tleadfoundation@gmail.com"}
             className={`${buttonVariants()}`}
           >
             Send us an Email

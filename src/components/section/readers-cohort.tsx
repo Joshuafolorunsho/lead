@@ -8,7 +8,7 @@ const ReadersCohort = () => {
         <h1
           className={`text-xl lg:text-2xl font-extrabold uppercase  ${manrope.className}`}
         >
-          Join our Reader&apos;s Cohort
+          Join our Readers Cohort
         </h1>
         <div className="space-y-2.5">
           <p

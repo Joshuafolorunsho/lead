@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     name: "Victor Jonah",
-    body: "Congrats to ther LEAD Foundation on 5 years. Their posts and quizzes have helped me relearn and correct things I’d forgotten about English and life.",
+    body: "Congrats to the LEAD Foundation on 5 years. Their posts and quizzes have helped me relearn and correct things I’d forgotten about English and life.",
   },
   {
     name: "Nurse Oluwaseyi Olajumoke",
@@ -30,7 +30,7 @@ const testimonials = [
   },
   {
     name: "Miracle Akinkunmi",
-    body: "Following the LEAD Foundation has helped me grow in vocabulary, communication, and self-reflection. Daily teachings keep me improving.",
+    body: "Following the LEAD Foundation has helped me grow in vocabulary, communication, and self-reflection. Their daily teachings keep me improving.",
   },
   // {
   //   name: "Ofiara Joy Amarachukwu",
